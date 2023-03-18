@@ -1,0 +1,93 @@
+
+.userQuestions{
+    padding: 1rem 9rem 1rem 9rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+
+.userQuestions h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 1.3rem;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.descriptionAnswer, .dateAnswer{
+    background: #EFEFEF;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+    padding: 8px 14px;
+    font-size: 17px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    
+}
+
+.descriptionAnswer {
+    /* box size */
+    width: 940px;
+    height: 140px;
+}
+
+.dateAnswer {
+    width: 270px;
+    height: 30px;
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.mapImg {
+    margin-top: 2rem;
+    width: 960px;
+    height: 500px;
+    background-color: #EFEFEF;
+    color: #000000;
+}
+
+.currentLocationLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.formCheckboxes input[type="checkbox"] {
+    /* margin: 15px 10px 5px 30px; */
+}
+
+.pageButtons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pageButtons button {
+    margin: 10px 20px;
+}
+
+.cancelButton {
+    background-color: #EFEFEF;
+    color: #000000;
+}
+
+.errorMessage {
+    color: #FF3939;
+}
+
+

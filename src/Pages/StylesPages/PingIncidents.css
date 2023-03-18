@@ -1,0 +1,31 @@
+.pingIncidentsHeader {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 50px;
+}
+
+.formTitle {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    
+    flex-grow: 1;
+  text-align: center;
+
+}
+
+.backButton {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B87E6;
+    text-decoration: none;
+    background: none; 
+    border: none;
+}

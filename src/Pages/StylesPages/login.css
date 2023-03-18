@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+}
+
+.sub-app {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 550px;
+  width: 80%;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.img 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.h1
+{
+  color: #FF3939;
+  position: relative;
+
+}
+.logo 
+{
+  flex-direction: row;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.Email {
+  margin-top: 50px;
+  height: 20px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.Password {
+  margin-top: 20px;
+  height: 20px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.login-button {
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  background-color: #FF3939;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+h2 {
+  margin-top: 40px;
+  color: black;
+  text-align: center;
+  font-size: medium;
+}

@@ -1,0 +1,47 @@
+
+
+.emergencyMessage {
+    margin:5rem 16rem 5rem 16rem;
+    
+}
+
+.emergencyMessage h2,
+.emergencyMessage p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+
+    
+    
+
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #ffff;
+
+    width: 252px;
+    height: 45px;
+    left: 603px;
+    top: 440px;
+    background: #FF3939;
+    border-radius: 20px;
+    border: none;
+}
+
+.nextPageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
